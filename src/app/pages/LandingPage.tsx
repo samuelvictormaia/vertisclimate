@@ -2,65 +2,69 @@ import { Button } from "../components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { Zap, TrendingDown, Sun, BarChart3, FileText, Calculator, ArrowRight, CheckCircle2, Shield, Clock } from "lucide-react";
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "../components/LanguageSwitcher";
 
 export function LandingPage() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">
       {/* Header/Navigation */}
-      <header className="border-b">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Zap className="text-white" size={24} />
+      <header className="border-b sticky top-0 bg-white z-50">
+        <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+              <Zap className="text-white" size={20} />
             </div>
-            <span className="font-bold text-xl">EnergyFin</span>
+            <span className="font-bold text-lg sm:text-xl">EnergyFin</span>
           </div>
-          <nav className="hidden md:flex items-center gap-8">
-            <a href="#solutions" className="text-gray-600 hover:text-gray-900">Soluções</a>
-            <a href="#how-it-works" className="text-gray-600 hover:text-gray-900">Como Funciona</a>
-            <a href="#benefits" className="text-gray-600 hover:text-gray-900">Benefícios</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900">Contato</a>
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+            <a href="#solutions" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.solutions')}</a>
+            <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.howItWorks')}</a>
+            <a href="#benefits" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.benefits')}</a>
+            <a href="#contact" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.contact')}</a>
           </nav>
-          <div className="flex items-center gap-3">
-            <Button variant="ghost" onClick={() => navigate("/login")}>Entrar</Button>
-            <Button onClick={() => navigate("/platform")}>Acessar Plataforma</Button>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <LanguageSwitcher />
+            <Button variant="ghost" size="sm" className="hidden sm:inline-flex" onClick={() => navigate("/login")}>{t('nav.login')}</Button>
+            <Button size="sm" className="text-xs sm:text-sm" onClick={() => navigate("/platform")}>{t('nav.accessPlatform')}</Button>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-20">
-        <div className="container mx-auto px-6">
+      <section className="bg-gradient-to-br from-blue-50 via-white to-green-50 py-12 sm:py-16 md:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-              Reduza até 40% nos Custos de Energia da sua Empresa
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
+              {t('hero.title')}
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Soluções financeiras inteligentes para gestão energética: economia garantida, financiamento solar e contratos otimizados.
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8">
+              {t('hero.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8" onClick={() => navigate("/platform/simulator")}>
-                <Calculator className="mr-2" size={20} />
-                Simular Economia Grátis
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+              <Button size="lg" className="text-sm sm:text-base md:text-lg px-6 sm:px-8 w-full sm:w-auto" onClick={() => navigate("/platform/simulator")}>
+                <Calculator className="mr-2" size={18} />
+                {t('hero.simulateFree')}
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8">
-                Falar com Especialista
+              <Button size="lg" variant="outline" className="text-sm sm:text-base md:text-lg px-6 sm:px-8 w-full sm:w-auto">
+                {t('hero.talkSpecialist')}
               </Button>
             </div>
-            <div className="mt-8 flex items-center justify-center gap-8 text-sm text-gray-600">
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm text-gray-600">
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="text-green-600" size={20} />
-                <span>Sem investimento inicial</span>
+                <CheckCircle2 className="text-green-600" size={18} />
+                <span>{t('hero.noInvestment')}</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="text-green-600" size={20} />
-                <span>Economia garantida</span>
+                <CheckCircle2 className="text-green-600" size={18} />
+                <span>{t('hero.guaranteedSavings')}</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="text-green-600" size={20} />
-                <span>Suporte dedicado</span>
+                <CheckCircle2 className="text-green-600" size={18} />
+                <span>{t('hero.dedicatedSupport')}</span>
               </div>
             </div>
           </div>

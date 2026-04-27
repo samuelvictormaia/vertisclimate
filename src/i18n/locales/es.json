@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "solutions": "Soluciones",
+    "howItWorks": "Cómo Funciona",
+    "benefits": "Beneficios",
+    "contact": "Contacto",
+    "login": "Entrar",
+    "accessPlatform": "Acceder a la Plataforma"
+  },
+  "hero": {
+    "title": "Reduce hasta un 40% los Costos de Energía de tu Empresa",
+    "subtitle": "Soluciones financieras inteligentes para gestión energética: ahorro garantizado, financiamiento solar y contratos optimizados.",
+    "simulateFree": "Simular Ahorro Gratis",
+    "talkSpecialist": "Hablar con Especialista",
+    "noInvestment": "Sin inversión inicial",
+    "guaranteedSavings": "Ahorro garantizado",
+    "dedicatedSupport": "Soporte dedicado"
+  },
+  "solutions": {
+    "title": "Nuestras Soluciones",
+    "subtitle": "Plataforma completa de gestión energética para empresas que quieren reducir costos y aumentar eficiencia.",
+    "simulator": {
+      "title": "Simulador de Ahorro",
+      "description": "Calcula cuánto puede ahorrar tu empresa con energía del mercado libre",
+      "cta": "Simular ahora"
+    },
+    "marketplace": {
+      "title": "Marketplace de Energía",
+      "description": "Compara proveedores y contrata energía más barata para tu negocio",
+      "cta": "Ver ofertas"
+    },
+    "financing": {
+      "title": "Financiamiento Solar",
+      "description": "Financia tu proyecto de energía solar con tasas especiales y retorno rápido",
+      "cta": "Simular financiamiento"
+    },
+    "dashboard": {
+      "title": "Dashboard e Informes",
+      "description": "Acompaña consumo, ahorro y gestión completa de contratos en tiempo real",
+      "cta": "Acceder al dashboard"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "En 3 simples pasos, tu empresa comienza a ahorrar en energía",
+    "step1": {
+      "title": "Análisis Gratuito",
+      "description": "Nuestro equipo analiza tu perfil de consumo e identifica oportunidades de ahorro"
+    },
+    "step2": {
+      "title": "Propuesta Personalizada",
+      "description": "Presentamos las mejores opciones de proveedores y condiciones comerciales del mercado"
+    },
+    "step3": {
+      "title": "Ahorro Inmediato",
+      "description": "Nos encargamos de toda la burocracia y comienzas a ahorrar en tu próxima factura"
+    }
+  },
+  "benefits": {
+    "title": "¿Por Qué Elegir EnergyFin?",
+    "security": {
+      "title": "Seguridad y Confiabilidad",
+      "description": "Más de 500 empresas atendidas y $50M en ahorro generado"
+    },
+    "guaranteed": {
+      "title": "Ahorro Garantizado",
+      "description": "Garantía contractual de reducción mínima del 20% en los costos de energía"
+    },
+    "management": {
+      "title": "Gestión Completa",
+      "description": "Plataforma digital para seguimiento en tiempo real e informes detallados"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Ahorrar?",
+    "subtitle": "Realiza una simulación gratuita y descubre cuánto puede ahorrar tu empresa",
+    "button": "Simular Ahorro Ahora"
+  },
+  "footer": {
+    "description": "Soluciones financieras para gestión energética empresarial",
+    "solutions": "Soluciones",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "aboutUs": "Sobre Nosotros",
+    "cases": "Casos de Éxito",
+    "blog": "Blog",
+    "careers": "Carreras",
+    "rights": "Todos los derechos reservados"
+  },
+  "login": {
+    "title": "Entrar a la Plataforma",
+    "subtitle": "Accede a tu cuenta para gestionar contratos de energía",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "Olvidé mi contraseña",
+    "createAccount": "Crear cuenta",
+    "loginButton": "Entrar",
+    "loggingIn": "Entrando...",
+    "orContinue": "O continúa con",
+    "backToSite": "Volver al sitio",
+    "demoAccess": "Demo - Acceso Rápido",
+    "demoDescription": "Para probar la plataforma, usa cualquier correo y contraseña. La autenticación es simulada para fines de demostración.",
+    "fillAllFields": "Por favor, completa todos los campos"
+  },
+  "register": {
+    "title": "Crear Cuenta",
+    "subtitle": "Completa los datos de tu empresa para comenzar",
+    "companyName": "Nombre de la Empresa",
+    "cnpj": "ID Fiscal",
+    "email": "Correo Corporativo",
+    "phone": "Teléfono",
+    "segment": "Segmento",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "minChars": "Mínimo 6 caracteres",
+    "reenterPassword": "Vuelve a escribir la contraseña",
+    "createAccountButton": "Crear Cuenta Gratis",
+    "creatingAccount": "Creando cuenta...",
+    "accessDescription": "Al crear tu cuenta, tendrás acceso a:",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "loginLink": "Iniciar sesión",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+    "segments": {
+      "industry": "Industria",
+      "commerce": "Comercio",
+      "services": "Servicios",
+      "health": "Salud",
+      "education": "Educación",
+      "other": "Otro"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Vista general de la gestión energética de tu empresa",
+    "totalSavings": "Ahorro Total",
+    "activeContracts": "Contratos Activos",
+    "totalConsumption": "Consumo Total",
+    "avgSavings": "Ahorro Promedio",
+    "consumption": "Consumo y Ahorro",
+    "savingsBySegment": "Ahorro por Segmento"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "simulator": "Simulador",
+    "marketplace": "Marketplace",
+    "financing": "Financiamiento",
+    "reports": "Informes",
+    "settings": "Configuración",
+    "support": "Soporte",
+    "needHelp": "¿Necesitas ayuda? Contacta a nuestro equipo.",
+    "contactSupport": "Contactar Soporte"
+  },
+  "common": {
+    "search": "Buscar",
+    "new": "Nuevo",
+    "viewAll": "Ver Todos",
+    "download": "Descargar",
+    "configure": "Configurar",
+    "loading": "Cargando...",
+    "perMonth": "por mes",
+    "month": "mes",
+    "year": "año",
+    "months": "meses",
+    "years": "años"
+  }
+}

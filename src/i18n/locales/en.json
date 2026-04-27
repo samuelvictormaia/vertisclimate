@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "howItWorks": "How It Works",
+    "benefits": "Benefits",
+    "contact": "Contact",
+    "login": "Login",
+    "accessPlatform": "Access Platform"
+  },
+  "hero": {
+    "title": "Reduce Up to 40% in Your Company's Energy Costs",
+    "subtitle": "Smart financial solutions for energy management: guaranteed savings, solar financing, and optimized contracts.",
+    "simulateFree": "Simulate Savings Free",
+    "talkSpecialist": "Talk to a Specialist",
+    "noInvestment": "No initial investment",
+    "guaranteedSavings": "Guaranteed savings",
+    "dedicatedSupport": "Dedicated support"
+  },
+  "solutions": {
+    "title": "Our Solutions",
+    "subtitle": "Complete energy management platform for companies looking to reduce costs and increase efficiency.",
+    "simulator": {
+      "title": "Savings Simulator",
+      "description": "Calculate how much your company can save with free market energy",
+      "cta": "Simulate now"
+    },
+    "marketplace": {
+      "title": "Energy Marketplace",
+      "description": "Compare suppliers and contract cheaper energy for your business",
+      "cta": "View offers"
+    },
+    "financing": {
+      "title": "Solar Financing",
+      "description": "Finance your solar energy project with special rates and fast payback",
+      "cta": "Simulate financing"
+    },
+    "dashboard": {
+      "title": "Dashboard & Reports",
+      "description": "Track consumption, savings, and complete contract management in real-time",
+      "cta": "Access dashboard"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "In 3 simple steps, your company starts saving on energy",
+    "step1": {
+      "title": "Free Analysis",
+      "description": "Our team analyzes your consumption profile and identifies savings opportunities"
+    },
+    "step2": {
+      "title": "Personalized Proposal",
+      "description": "We present the best supplier options and market commercial conditions"
+    },
+    "step3": {
+      "title": "Immediate Savings",
+      "description": "We handle all the bureaucracy and you start saving on your next bill"
+    }
+  },
+  "benefits": {
+    "title": "Why Choose EnergyFin?",
+    "security": {
+      "title": "Security and Reliability",
+      "description": "Over 500 companies served and $50M in savings generated"
+    },
+    "guaranteed": {
+      "title": "Guaranteed Savings",
+      "description": "Contractual guarantee of minimum 20% reduction in energy costs"
+    },
+    "management": {
+      "title": "Complete Management",
+      "description": "Digital platform for real-time tracking and detailed reports"
+    }
+  },
+  "cta": {
+    "title": "Ready to Save?",
+    "subtitle": "Get a free simulation and discover how much your company can save",
+    "button": "Simulate Savings Now"
+  },
+  "footer": {
+    "description": "Financial solutions for business energy management",
+    "solutions": "Solutions",
+    "company": "Company",
+    "contact": "Contact",
+    "aboutUs": "About Us",
+    "cases": "Success Cases",
+    "blog": "Blog",
+    "careers": "Careers",
+    "rights": "All rights reserved"
+  },
+  "login": {
+    "title": "Login to Platform",
+    "subtitle": "Access your account to manage energy contracts",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot my password",
+    "createAccount": "Create account",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "orContinue": "Or continue with",
+    "backToSite": "Back to site",
+    "demoAccess": "Demo - Quick Access",
+    "demoDescription": "To test the platform, use any email and password. Authentication is simulated for demonstration purposes.",
+    "fillAllFields": "Please fill in all fields"
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Fill in your company details to get started",
+    "companyName": "Company Name",
+    "cnpj": "Tax ID",
+    "email": "Corporate Email",
+    "phone": "Phone",
+    "segment": "Segment",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "minChars": "Minimum 6 characters",
+    "reenterPassword": "Re-enter password",
+    "createAccountButton": "Create Free Account",
+    "creatingAccount": "Creating account...",
+    "accessDescription": "By creating your account, you will have access to:",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Login",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "segments": {
+      "industry": "Industry",
+      "commerce": "Commerce",
+      "services": "Services",
+      "health": "Healthcare",
+      "education": "Education",
+      "other": "Other"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your company's energy management",
+    "totalSavings": "Total Savings",
+    "activeContracts": "Active Contracts",
+    "totalConsumption": "Total Consumption",
+    "avgSavings": "Average Savings",
+    "consumption": "Consumption and Savings",
+    "savingsBySegment": "Savings by Segment"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "simulator": "Simulator",
+    "marketplace": "Marketplace",
+    "financing": "Financing",
+    "reports": "Reports",
+    "settings": "Settings",
+    "support": "Support",
+    "needHelp": "Need help? Contact our team.",
+    "contactSupport": "Contact Support"
+  },
+  "common": {
+    "search": "Search",
+    "new": "New",
+    "viewAll": "View All",
+    "download": "Download",
+    "configure": "Configure",
+    "loading": "Loading...",
+    "perMonth": "per month",
+    "month": "month",
+    "year": "year",
+    "months": "months",
+    "years": "years"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "solutions": "Soluções",
+    "howItWorks": "Como Funciona",
+    "benefits": "Benefícios",
+    "contact": "Contato",
+    "login": "Entrar",
+    "accessPlatform": "Acessar Plataforma"
+  },
+  "hero": {
+    "title": "Reduza até 40% nos Custos de Energia da sua Empresa",
+    "subtitle": "Soluções financeiras inteligentes para gestão energética: economia garantida, financiamento solar e contratos otimizados.",
+    "simulateFree": "Simular Economia Grátis",
+    "talkSpecialist": "Falar com Especialista",
+    "noInvestment": "Sem investimento inicial",
+    "guaranteedSavings": "Economia garantida",
+    "dedicatedSupport": "Suporte dedicado"
+  },
+  "solutions": {
+    "title": "Nossas Soluções",
+    "subtitle": "Plataforma completa de gestão energética para empresas que querem reduzir custos e aumentar eficiência.",
+    "simulator": {
+      "title": "Simulador de Economia",
+      "description": "Calcule quanto sua empresa pode economizar com energia no mercado livre",
+      "cta": "Simular agora"
+    },
+    "marketplace": {
+      "title": "Marketplace de Energia",
+      "description": "Compare fornecedores e contrate energia mais barata para seu negócio",
+      "cta": "Ver ofertas"
+    },
+    "financing": {
+      "title": "Financiamento Solar",
+      "description": "Financie seu projeto de energia solar com taxas especiais e payback rápido",
+      "cta": "Simular financiamento"
+    },
+    "dashboard": {
+      "title": "Dashboard & Relatórios",
+      "description": "Acompanhe consumo, economia e gestão completa de contratos em tempo real",
+      "cta": "Acessar dashboard"
+    }
+  },
+  "howItWorks": {
+    "title": "Como Funciona",
+    "subtitle": "Em 3 passos simples, sua empresa começa a economizar em energia",
+    "step1": {
+      "title": "Análise Gratuita",
+      "description": "Nossa equipe analisa seu perfil de consumo e identifica oportunidades de economia"
+    },
+    "step2": {
+      "title": "Proposta Personalizada",
+      "description": "Apresentamos as melhores opções de fornecedores e condições comerciais do mercado"
+    },
+    "step3": {
+      "title": "Economia Imediata",
+      "description": "Cuidamos de toda burocracia e você começa a economizar já na próxima fatura"
+    }
+  },
+  "benefits": {
+    "title": "Por Que Escolher a EnergyFin?",
+    "security": {
+      "title": "Segurança e Confiabilidade",
+      "description": "Mais de 500 empresas atendidas e R$ 50M em economia gerada"
+    },
+    "guaranteed": {
+      "title": "Economia Garantida",
+      "description": "Garantia contratual de redução mínima de 20% nos custos de energia"
+    },
+    "management": {
+      "title": "Gestão Completa",
+      "description": "Plataforma digital para acompanhamento em tempo real e relatórios detalhados"
+    }
+  },
+  "cta": {
+    "title": "Pronto para Economizar?",
+    "subtitle": "Faça uma simulação gratuita e descubra quanto sua empresa pode economizar",
+    "button": "Simular Economia Agora"
+  },
+  "footer": {
+    "description": "Soluções financeiras para gestão energética empresarial",
+    "solutions": "Soluções",
+    "company": "Empresa",
+    "contact": "Contato",
+    "aboutUs": "Sobre Nós",
+    "cases": "Cases de Sucesso",
+    "blog": "Blog",
+    "careers": "Carreiras",
+    "rights": "Todos os direitos reservados"
+  },
+  "login": {
+    "title": "Entrar na Plataforma",
+    "subtitle": "Acesse sua conta para gerenciar contratos de energia",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgotPassword": "Esqueci minha senha",
+    "createAccount": "Criar conta",
+    "loginButton": "Entrar",
+    "loggingIn": "Entrando...",
+    "orContinue": "Ou continue com",
+    "backToSite": "Voltar para o site",
+    "demoAccess": "Demo - Acesso Rápido",
+    "demoDescription": "Para testar a plataforma, use qualquer email e senha. A autenticação é simulada para fins de demonstração.",
+    "fillAllFields": "Por favor, preencha todos os campos"
+  },
+  "register": {
+    "title": "Criar Conta",
+    "subtitle": "Preencha os dados da sua empresa para começar",
+    "companyName": "Nome da Empresa",
+    "cnpj": "CNPJ",
+    "email": "E-mail Corporativo",
+    "phone": "Telefone",
+    "segment": "Segmento",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "minChars": "Mínimo 6 caracteres",
+    "reenterPassword": "Digite a senha novamente",
+    "createAccountButton": "Criar Conta Grátis",
+    "creatingAccount": "Criando conta...",
+    "accessDescription": "Ao criar sua conta, você terá acesso a:",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "loginLink": "Fazer login",
+    "passwordMismatch": "As senhas não coincidem",
+    "passwordTooShort": "A senha deve ter no mínimo 6 caracteres",
+    "segments": {
+      "industry": "Indústria",
+      "commerce": "Comércio",
+      "services": "Serviços",
+      "health": "Saúde",
+      "education": "Educação",
+      "other": "Outro"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Visão geral da gestão energética da sua empresa",
+    "totalSavings": "Economia Total",
+    "activeContracts": "Contratos Ativos",
+    "totalConsumption": "Consumo Total",
+    "avgSavings": "Média de Economia",
+    "consumption": "Consumo e Economia",
+    "savingsBySegment": "Economia por Segmento"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "simulator": "Simulador",
+    "marketplace": "Marketplace",
+    "financing": "Financiamento",
+    "reports": "Relatórios",
+    "settings": "Configurações",
+    "support": "Suporte",
+    "needHelp": "Precisa de ajuda? Entre em contato com nossa equipe.",
+    "contactSupport": "Falar com Suporte"
+  },
+  "common": {
+    "search": "Buscar",
+    "new": "Novo",
+    "viewAll": "Ver Todos",
+    "download": "Baixar",
+    "configure": "Configurar",
+    "loading": "Carregando...",
+    "perMonth": "por mês",
+    "month": "mês",
+    "year": "ano",
+    "months": "meses",
+    "years": "anos"
+  }
+}
