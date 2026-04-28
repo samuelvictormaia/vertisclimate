@@ -197,7 +197,7 @@ export function LandingPage() {
       <section id="benefits" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Por Que Escolher a EnergyFin?</h2>
+            <h2 className="text-3xl font-bold mb-4">Por Que Escolher a Vértis Climate?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -288,9 +288,9 @@ export function LandingPage() {
             <div>
               <h4 className="text-white font-semibold mb-4">Contato</h4>
               <ul className="space-y-2 text-sm">
-                <li>contato@energyfin.com.br</li>
-                <li>(11) 3000-0000</li>
-                <li>São Paulo, SP</li>
+                <li>contato@vertisclimate.com.br</li>
+                <li>(81) 3000-0000</li>
+                <li>Recife, PE</li>
               </ul>
             </div>
           </div>
