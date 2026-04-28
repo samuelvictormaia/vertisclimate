@@ -3,11 +3,14 @@ import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
-import { Zap, AlertCircle } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
+import { Logo } from "../components/Logo";
 
 export function Login() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -33,16 +36,12 @@ export function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-teal-50 flex items-center justify-center p-6">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Zap className="text-white" size={28} />
-            </div>
-            <span className="font-bold text-2xl">EnergyFin</span>
+          <div className="flex items-center justify-center mb-4">
+            <Logo size="lg" showTagline />
           </div>
-          <p className="text-gray-600">Gestão Inteligente de Energia</p>
         </div>
 
         <Card>

@@ -4,6 +4,7 @@ import { Zap, TrendingDown, Sun, BarChart3, FileText, Calculator, ArrowRight, Ch
 import { useNavigate } from "react-router";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../components/LanguageSwitcher";
+import { Logo } from "../components/Logo";
 
 export function LandingPage() {
   const navigate = useNavigate();
@@ -14,17 +15,12 @@ export function LandingPage() {
       {/* Header/Navigation */}
       <header className="border-b sticky top-0 bg-white z-50">
         <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2 sm:gap-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Zap className="text-white" size={20} />
-            </div>
-            <span className="font-bold text-lg sm:text-xl">EnergyFin</span>
-          </div>
+          <Logo size="md" onClick={() => navigate("/")} />
           <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             <a href="#solutions" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.solutions')}</a>
             <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.howItWorks')}</a>
             <a href="#benefits" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.benefits')}</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.contact')}</a>
+            <button onClick={() => navigate("/contact")} className="text-gray-600 hover:text-gray-900 text-sm xl:text-base">{t('nav.contact')}</button>
           </nav>
           <div className="flex items-center gap-2 sm:gap-3">
             <LanguageSwitcher />
@@ -263,14 +259,9 @@ export function LandingPage() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                  <Zap className="text-white" size={24} />
-                </div>
-                <span className="font-bold text-xl text-white">EnergyFin</span>
-              </div>
-              <p className="text-sm">
-                Soluções financeiras para gestão energética empresarial
+              <Logo size="sm" showTagline />
+              <p className="text-sm mt-4">
+                {t('footer.description')}
               </p>
             </div>
 
@@ -305,7 +296,7 @@ export function LandingPage() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-            <p>&copy; 2026 EnergyFin. Todos os direitos reservados.</p>
+            <p>&copy; 2026 {t('companyName')}. {t('footer.rights')}</p>
           </div>
         </div>
       </footer>

@@ -1,4 +1,6 @@
 {
+  "companyName": "Vértis Climate",
+  "tagline": "Smart Climate Solutions",
   "nav": {
     "solutions": "Solutions",
     "howItWorks": "How It Works",
@@ -57,7 +59,7 @@
     }
   },
   "benefits": {
-    "title": "Why Choose EnergyFin?",
+    "title": "Why Choose Vértis Climate?",
     "security": {
       "title": "Security and Reliability",
       "description": "Over 500 companies served and $50M in savings generated"
@@ -163,5 +165,44 @@
     "year": "year",
     "months": "months",
     "years": "years"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're ready to help your company reduce costs and optimize energy management",
+    "form": {
+      "title": "Send Your Message",
+      "name": "Full Name",
+      "email": "Corporate Email",
+      "phone": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "companyPlaceholder": "Your company name",
+      "subjectPlaceholder": "How can we help?",
+      "messagePlaceholder": "Tell us more about your needs..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "addressLine1": "Av. Paulista, 1374 - 12th floor",
+      "addressLine2": "Bela Vista, São Paulo - SP",
+      "addressLine3": "ZIP 01310-100, Brazil",
+      "phone": "Phone",
+      "phoneNumber": "+55 (11) 3000-0000",
+      "email": "Email",
+      "emailAddress": "contact@vertisclimate.com",
+      "hours": "Business Hours",
+      "hoursDetail": "Monday to Friday: 9am to 6pm"
+    },
+    "office": {
+      "title": "Our Headquarters",
+      "description": "Located in São Paulo's financial heart"
+    }
   }
 }

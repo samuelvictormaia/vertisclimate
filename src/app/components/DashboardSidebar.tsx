@@ -1,9 +1,10 @@
-import { LayoutDashboard, Calculator, ShoppingCart, Sun, FileText, Settings, Zap, Menu, X } from "lucide-react";
+import { LayoutDashboard, Calculator, ShoppingCart, Sun, FileText, Settings, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useLocation, useNavigate } from "react-router";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { Logo } from "./Logo";
 
 export function DashboardSidebar() {
   const location = useLocation();
@@ -22,16 +23,8 @@ export function DashboardSidebar() {
 
   const SidebarContent = () => (
     <>
-      <div className="p-4 sm:p-6 border-b border-slate-800 cursor-pointer" onClick={() => { navigate("/"); setMobileOpen(false); }}>
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-            <Zap size={24} />
-          </div>
-          <div>
-            <h2 className="font-bold">EnergyFin</h2>
-            <p className="text-xs text-slate-400">Gestão Inteligente</p>
-          </div>
-        </div>
+      <div className="p-4 sm:p-6 border-b border-slate-800" onClick={() => { navigate("/"); setMobileOpen(false); }}>
+        <Logo size="md" showTagline />
       </div>
 
       <nav className="flex-1 p-3 sm:p-4 overflow-y-auto">

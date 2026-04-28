@@ -1,4 +1,6 @@
 {
+  "companyName": "Vértis Climate",
+  "tagline": "Soluciones Climáticas Inteligentes",
   "nav": {
     "solutions": "Soluciones",
     "howItWorks": "Cómo Funciona",
@@ -57,7 +59,7 @@
     }
   },
   "benefits": {
-    "title": "¿Por Qué Elegir EnergyFin?",
+    "title": "¿Por Qué Elegir Vértis Climate?",
     "security": {
       "title": "Seguridad y Confiabilidad",
       "description": "Más de 500 empresas atendidas y $50M en ahorro generado"
@@ -163,5 +165,44 @@
     "year": "año",
     "months": "meses",
     "years": "años"
+  },
+  "contact": {
+    "title": "Póngase en Contacto",
+    "subtitle": "Estamos listos para ayudar a su empresa a reducir costos y optimizar la gestión energética",
+    "form": {
+      "title": "Envíe su Mensaje",
+      "name": "Nombre Completo",
+      "email": "Correo Corporativo",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.",
+      "namePlaceholder": "Su nombre",
+      "emailPlaceholder": "su@email.com",
+      "phonePlaceholder": "+34 999 999 999",
+      "companyPlaceholder": "Nombre de su empresa",
+      "subjectPlaceholder": "¿Cómo podemos ayudarle?",
+      "messagePlaceholder": "Cuéntenos más sobre sus necesidades..."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "address": "Dirección",
+      "addressLine1": "Av. Paulista, 1374 - Piso 12",
+      "addressLine2": "Bela Vista, São Paulo - SP",
+      "addressLine3": "CEP 01310-100, Brasil",
+      "phone": "Teléfono",
+      "phoneNumber": "+55 (11) 3000-0000",
+      "email": "Correo",
+      "emailAddress": "contacto@vertisclimate.com.br",
+      "hours": "Horario de Atención",
+      "hoursDetail": "Lunes a Viernes: 9h a 18h"
+    },
+    "office": {
+      "title": "Nuestra Sede",
+      "description": "Ubicada en el corazón financiero de São Paulo"
+    }
   }
 }

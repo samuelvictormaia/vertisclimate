@@ -4,11 +4,14 @@ import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
-import { Zap, AlertCircle, CheckCircle2 } from "lucide-react";
+import { AlertCircle, CheckCircle2 } from "lucide-react";
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
+import { Logo } from "../components/Logo";
 
 export function Register() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     companyName: "",
     cnpj: "",
@@ -51,14 +54,11 @@ export function Register() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-teal-50 flex items-center justify-center p-6">
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <Zap className="text-white" size={28} />
-            </div>
-            <span className="font-bold text-2xl">EnergyFin</span>
+          <div className="flex items-center justify-center mb-4">
+            <Logo size="lg" showTagline />
           </div>
           <p className="text-gray-600">Crie sua conta e comece a economizar</p>
         </div>
